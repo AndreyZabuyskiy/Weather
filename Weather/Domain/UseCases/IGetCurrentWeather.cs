@@ -7,5 +7,6 @@ namespace Weather.Domain.UseCases
 {
     interface IGetCurrentWeather
     {
+        void GetCurrentWeather(string city);
     }
 }
