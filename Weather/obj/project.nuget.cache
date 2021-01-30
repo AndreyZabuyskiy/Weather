@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "MnYdJkLjOozLucYulrY8eurEGGtucK9wtkdh1q7ehDSMnrxmsxLSQ2O8Y/cnCuNu6h1fKXLJ8HQEL0j3gAgV/Q==",
+  "dgSpecHash": "EHRW8FDO4z8R8U1wPFNiHknszAkvknHulT9mW5jUc1TF+Jvi+rBV5zkPR2qKFGGAXCP+9rHWmkVLn8lXZ1fSSw==",
   "success": true,
   "projectFilePath": "D:\\Программирование\\Приложения\\Cleveroad test task\\Weather\\Weather\\Weather.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\andre\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

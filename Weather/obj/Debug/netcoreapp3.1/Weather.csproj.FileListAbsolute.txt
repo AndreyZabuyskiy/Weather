@@ -1,0 +1,10 @@
+D:\Программирование\Приложения\Cleveroad test task\Weather\Weather\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Программирование\Приложения\Cleveroad test task\Weather\Weather\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Программирование\Приложения\Cleveroad test task\Weather\Weather\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\Программирование\Приложения\Cleveroad test task\Weather\Weather\bin\Debug\netcoreapp3.1\Weather.exe
+D:\Программирование\Приложения\Cleveroad test task\Weather\Weather\obj\Debug\netcoreapp3.1\Weather.csprojAssemblyReference.cache
+D:\Программирование\Приложения\Cleveroad test task\Weather\Weather\obj\Debug\netcoreapp3.1\Weather.AssemblyInfoInputs.cache
+D:\Программирование\Приложения\Cleveroad test task\Weather\Weather\obj\Debug\netcoreapp3.1\Weather.AssemblyInfo.cs
+D:\Программирование\Приложения\Cleveroad test task\Weather\Weather\obj\Debug\netcoreapp3.1\Weather.RazorTargetAssemblyInfo.cache
+D:\Программирование\Приложения\Cleveroad test task\Weather\Weather\obj\Debug\netcoreapp3.1\staticwebassets\Weather.StaticWebAssets.Manifest.cache
+D:\Программирование\Приложения\Cleveroad test task\Weather\Weather\obj\Debug\netcoreapp3.1\staticwebassets\Weather.StaticWebAssets.xml
