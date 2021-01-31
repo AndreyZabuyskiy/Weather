@@ -8,3 +8,16 @@ D:\Программирование\Приложения\Cleveroad test task\Wea
 D:\Программирование\Приложения\Cleveroad test task\Weather\Weather\obj\Debug\netcoreapp3.1\Weather.RazorTargetAssemblyInfo.cache
 D:\Программирование\Приложения\Cleveroad test task\Weather\Weather\obj\Debug\netcoreapp3.1\staticwebassets\Weather.StaticWebAssets.Manifest.cache
 D:\Программирование\Приложения\Cleveroad test task\Weather\Weather\obj\Debug\netcoreapp3.1\staticwebassets\Weather.StaticWebAssets.xml
+D:\Программирование\Приложения\Cleveroad test task\Weather\Weather\bin\Debug\netcoreapp3.1\appconfig.json
+D:\Программирование\Приложения\Cleveroad test task\Weather\Weather\bin\Debug\netcoreapp3.1\Weather.deps.json
+D:\Программирование\Приложения\Cleveroad test task\Weather\Weather\bin\Debug\netcoreapp3.1\Weather.runtimeconfig.json
+D:\Программирование\Приложения\Cleveroad test task\Weather\Weather\bin\Debug\netcoreapp3.1\Weather.runtimeconfig.dev.json
+D:\Программирование\Приложения\Cleveroad test task\Weather\Weather\bin\Debug\netcoreapp3.1\Weather.dll
+D:\Программирование\Приложения\Cleveroad test task\Weather\Weather\bin\Debug\netcoreapp3.1\Weather.pdb
+D:\Программирование\Приложения\Cleveroad test task\Weather\Weather\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Программирование\Приложения\Cleveroad test task\Weather\Weather\obj\Debug\netcoreapp3.1\Weather.csproj.CoreCompileInputs.cache
+D:\Программирование\Приложения\Cleveroad test task\Weather\Weather\obj\Debug\netcoreapp3.1\Weather.MvcApplicationPartsAssemblyInfo.cache
+D:\Программирование\Приложения\Cleveroad test task\Weather\Weather\obj\Debug\netcoreapp3.1\Weather.csproj.CopyComplete
+D:\Программирование\Приложения\Cleveroad test task\Weather\Weather\obj\Debug\netcoreapp3.1\Weather.dll
+D:\Программирование\Приложения\Cleveroad test task\Weather\Weather\obj\Debug\netcoreapp3.1\Weather.pdb
+D:\Программирование\Приложения\Cleveroad test task\Weather\Weather\obj\Debug\netcoreapp3.1\Weather.genruntimeconfig.cache

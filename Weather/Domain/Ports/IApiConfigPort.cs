@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Weather.Domain.Ports
 {
-    interface IApiConfigPort
+    public interface IApiConfigPort
     {
         string Url { get; set; }
         string Key { get; set; }
