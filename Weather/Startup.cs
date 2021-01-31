@@ -9,6 +9,9 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Weather.Domain.Ports;
+using Weather.Domain.Services;
+using Weather.Domain.UseCases;
 
 namespace Weather
 {
@@ -26,6 +29,16 @@ namespace Weather
         {
             services.AddControllersWithViews();
             services.AddMvc().AddNewtonsoftJson();
+
+            var config = new ConfigurationBuilder().AddJsonFile("appconfig.json").Build();
+            string apiUrl = config["Api:Url"];
+            string apiKey = config["Api:Key"];
+
+            IApiConfigPort apiConfig = new ApiConfigService(apiUrl, apiKey);
+            IRequestCurrentWeather requestCurrentWeatherService = new ForecastRequestService(apiConfig);
+            IGetCurrentWeather getCurrentWeatherService = new ForecastService(requestCurrentWeatherService);
+
+            services.AddSingleton<IGetCurrentWeather>(provider => getCurrentWeatherService);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
