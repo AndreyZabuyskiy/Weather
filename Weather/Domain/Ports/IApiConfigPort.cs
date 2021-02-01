@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace Weather.Domain.Ports
+﻿namespace Weather.Domain.Ports
 {
     public interface IApiConfigPort
     {

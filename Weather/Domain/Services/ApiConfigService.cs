@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Weather.Domain.Ports;
+﻿using Weather.Domain.Ports;
 
 namespace Weather.Domain.Services
 {
