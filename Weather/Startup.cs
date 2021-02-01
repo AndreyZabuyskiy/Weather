@@ -36,9 +36,12 @@ namespace Weather
 
             IApiConfigPort apiConfig = new ApiConfigService(apiUrl, apiKey);
             IRequestCurrentWeather requestCurrentWeatherService = new ForecastRequestService(apiConfig);
-            IGetCurrentWeather getCurrentWeatherService = new ForecastService(requestCurrentWeatherService);
+            IRequestForecast requestForecast = new ForecastRequestService(apiConfig);
+            IGetCurrentWeather getCurrentWeatherService = new ForecastService(requestCurrentWeatherService, requestForecast);
+            IGetForecast getForecast = new ForecastService(requestCurrentWeatherService, requestForecast);
 
             services.AddSingleton<IGetCurrentWeather>(provider => getCurrentWeatherService);
+            services.AddSingleton<IGetForecast>(provider => getForecast);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

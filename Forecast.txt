@@ -1,0 +1,694 @@
+{
+    "2021-02-01": [
+        {
+            "temp": {
+                "value": 2.19,
+                "min": 2.19,
+                "max": 3.43,
+                "feelsLike": -1.36
+            },
+            "wind": {
+                "speed": 2.69,
+                "deg": 126
+            },
+            "sky": {
+                "description": "light rain",
+                "clouds": 95
+            },
+            "dateISO": "2021-02-01 09:00:00"
+        },
+        {
+            "temp": {
+                "value": 4.66,
+                "min": 4.66,
+                "max": 5.67,
+                "feelsLike": 0.02
+            },
+            "wind": {
+                "speed": 4.61,
+                "deg": 145
+            },
+            "sky": {
+                "description": "light rain",
+                "clouds": 98
+            },
+            "dateISO": "2021-02-01 12:00:00"
+        },
+        {
+            "temp": {
+                "value": 6.43,
+                "min": 6.43,
+                "max": 6.8,
+                "feelsLike": 1.83
+            },
+            "wind": {
+                "speed": 4.22,
+                "deg": 190
+            },
+            "sky": {
+                "description": "overcast clouds",
+                "clouds": 99
+            },
+            "dateISO": "2021-02-01 15:00:00"
+        },
+        {
+            "temp": {
+                "value": 8.14,
+                "min": 8.14,
+                "max": 8.2,
+                "feelsLike": 1.25
+            },
+            "wind": {
+                "speed": 7.34,
+                "deg": 204
+            },
+            "sky": {
+                "description": "light rain",
+                "clouds": 100
+            },
+            "dateISO": "2021-02-01 18:00:00"
+        },
+        {
+            "temp": {
+                "value": 7.67,
+                "min": 7.67,
+                "max": 7.67,
+                "feelsLike": 1.95
+            },
+            "wind": {
+                "speed": 6.8,
+                "deg": 211
+            },
+            "sky": {
+                "description": "light rain",
+                "clouds": 100
+            },
+            "dateISO": "2021-02-01 21:00:00"
+        }
+    ],
+    "2021-02-02": [
+        {
+            "temp": {
+                "value": 7.97,
+                "min": 7.97,
+                "max": 7.97,
+                "feelsLike": 3.2
+            },
+            "wind": {
+                "speed": 5.78,
+                "deg": 218
+            },
+            "sky": {
+                "description": "overcast clouds",
+                "clouds": 100
+            },
+            "dateISO": "2021-02-02 00:00:00"
+        },
+        {
+            "temp": {
+                "value": 6.41,
+                "min": 6.41,
+                "max": 6.41,
+                "feelsLike": 3.67
+            },
+            "wind": {
+                "speed": 2.59,
+                "deg": 232
+            },
+            "sky": {
+                "description": "overcast clouds",
+                "clouds": 100
+            },
+            "dateISO": "2021-02-02 03:00:00"
+        },
+        {
+            "temp": {
+                "value": 5.52,
+                "min": 5.52,
+                "max": 5.52,
+                "feelsLike": 3.19
+            },
+            "wind": {
+                "speed": 1.62,
+                "deg": 237
+            },
+            "sky": {
+                "description": "overcast clouds",
+                "clouds": 100
+            },
+            "dateISO": "2021-02-02 06:00:00"
+        },
+        {
+            "temp": {
+                "value": 5.65,
+                "min": 5.65,
+                "max": 5.65,
+                "feelsLike": 3.56
+            },
+            "wind": {
+                "speed": 1.22,
+                "deg": 246
+            },
+            "sky": {
+                "description": "light rain",
+                "clouds": 100
+            },
+            "dateISO": "2021-02-02 09:00:00"
+        },
+        {
+            "temp": {
+                "value": 6.71,
+                "min": 6.71,
+                "max": 6.71,
+                "feelsLike": 3.9
+            },
+            "wind": {
+                "speed": 2.28,
+                "deg": 256
+            },
+            "sky": {
+                "description": "overcast clouds",
+                "clouds": 100
+            },
+            "dateISO": "2021-02-02 12:00:00"
+        },
+        {
+            "temp": {
+                "value": 5.67,
+                "min": 5.67,
+                "max": 5.67,
+                "feelsLike": 2.56
+            },
+            "wind": {
+                "speed": 2.56,
+                "deg": 288
+            },
+            "sky": {
+                "description": "overcast clouds",
+                "clouds": 96
+            },
+            "dateISO": "2021-02-02 15:00:00"
+        },
+        {
+            "temp": {
+                "value": 4.65,
+                "min": 4.65,
+                "max": 4.65,
+                "feelsLike": 1.15
+            },
+            "wind": {
+                "speed": 2.65,
+                "deg": 281
+            },
+            "sky": {
+                "description": "overcast clouds",
+                "clouds": 95
+            },
+            "dateISO": "2021-02-02 18:00:00"
+        },
+        {
+            "temp": {
+                "value": 3.65,
+                "min": 3.65,
+                "max": 3.65,
+                "feelsLike": 0.36
+            },
+            "wind": {
+                "speed": 2.05,
+                "deg": 291
+            },
+            "sky": {
+                "description": "overcast clouds",
+                "clouds": 89
+            },
+            "dateISO": "2021-02-02 21:00:00"
+        }
+    ],
+    "2021-02-03": [
+        {
+            "temp": {
+                "value": 2.05,
+                "min": 2.05,
+                "max": 2.05,
+                "feelsLike": -0.61
+            },
+            "wind": {
+                "speed": 1.06,
+                "deg": 266
+            },
+            "sky": {
+                "description": "broken clouds",
+                "clouds": 51
+            },
+            "dateISO": "2021-02-03 00:00:00"
+        },
+        {
+            "temp": {
+                "value": 0.74,
+                "min": 0.74,
+                "max": 0.74,
+                "feelsLike": -1.87
+            },
+            "wind": {
+                "speed": 0.93,
+                "deg": 347
+            },
+            "sky": {
+                "description": "clear sky",
+                "clouds": 6
+            },
+            "dateISO": "2021-02-03 03:00:00"
+        },
+        {
+            "temp": {
+                "value": 0.94,
+                "min": 0.94,
+                "max": 0.94,
+                "feelsLike": -1.43
+            },
+            "wind": {
+                "speed": 0.6,
+                "deg": 57
+            },
+            "sky": {
+                "description": "few clouds",
+                "clouds": 19
+            },
+            "dateISO": "2021-02-03 06:00:00"
+        },
+        {
+            "temp": {
+                "value": 4.45,
+                "min": 4.45,
+                "max": 4.45,
+                "feelsLike": 1.4
+            },
+            "wind": {
+                "speed": 1.77,
+                "deg": 188
+            },
+            "sky": {
+                "description": "scattered clouds",
+                "clouds": 40
+            },
+            "dateISO": "2021-02-03 09:00:00"
+        },
+        {
+            "temp": {
+                "value": 7.59,
+                "min": 7.59,
+                "max": 7.59,
+                "feelsLike": 3.76
+            },
+            "wind": {
+                "speed": 3.24,
+                "deg": 224
+            },
+            "sky": {
+                "description": "few clouds",
+                "clouds": 23
+            },
+            "dateISO": "2021-02-03 12:00:00"
+        },
+        {
+            "temp": {
+                "value": 5.22,
+                "min": 5.22,
+                "max": 5.22,
+                "feelsLike": 1.92
+            },
+            "wind": {
+                "speed": 2.5,
+                "deg": 240
+            },
+            "sky": {
+                "description": "clear sky",
+                "clouds": 10
+            },
+            "dateISO": "2021-02-03 15:00:00"
+        },
+        {
+            "temp": {
+                "value": 2.58,
+                "min": 2.58,
+                "max": 2.58,
+                "feelsLike": -1.8
+            },
+            "wind": {
+                "speed": 3.77,
+                "deg": 262
+            },
+            "sky": {
+                "description": "broken clouds",
+                "clouds": 55
+            },
+            "dateISO": "2021-02-03 18:00:00"
+        },
+        {
+            "temp": {
+                "value": 2.6,
+                "min": 2.6,
+                "max": 2.6,
+                "feelsLike": -1.83
+            },
+            "wind": {
+                "speed": 3.81,
+                "deg": 260
+            },
+            "sky": {
+                "description": "overcast clouds",
+                "clouds": 100
+            },
+            "dateISO": "2021-02-03 21:00:00"
+        }
+    ],
+    "2021-02-04": [
+        {
+            "temp": {
+                "value": 2.42,
+                "min": 2.42,
+                "max": 2.42,
+                "feelsLike": -1.22
+            },
+            "wind": {
+                "speed": 2.74,
+                "deg": 219
+            },
+            "sky": {
+                "description": "overcast clouds",
+                "clouds": 92
+            },
+            "dateISO": "2021-02-04 00:00:00"
+        },
+        {
+            "temp": {
+                "value": 1.98,
+                "min": 1.98,
+                "max": 1.98,
+                "feelsLike": -2.26
+            },
+            "wind": {
+                "speed": 3.56,
+                "deg": 210
+            },
+            "sky": {
+                "description": "scattered clouds",
+                "clouds": 43
+            },
+            "dateISO": "2021-02-04 03:00:00"
+        },
+        {
+            "temp": {
+                "value": 2.63,
+                "min": 2.63,
+                "max": 2.63,
+                "feelsLike": -1.9
+            },
+            "wind": {
+                "speed": 4.13,
+                "deg": 194
+            },
+            "sky": {
+                "description": "broken clouds",
+                "clouds": 71
+            },
+            "dateISO": "2021-02-04 06:00:00"
+        },
+        {
+            "temp": {
+                "value": 5.51,
+                "min": 5.51,
+                "max": 5.51,
+                "feelsLike": 0.61
+            },
+            "wind": {
+                "speed": 5.37,
+                "deg": 197
+            },
+            "sky": {
+                "description": "light rain",
+                "clouds": 100
+            },
+            "dateISO": "2021-02-04 09:00:00"
+        },
+        {
+            "temp": {
+                "value": 6.85,
+                "min": 6.85,
+                "max": 6.85,
+                "feelsLike": 2.07
+            },
+            "wind": {
+                "speed": 5.22,
+                "deg": 230
+            },
+            "sky": {
+                "description": "overcast clouds",
+                "clouds": 100
+            },
+            "dateISO": "2021-02-04 12:00:00"
+        },
+        {
+            "temp": {
+                "value": 6.1,
+                "min": 6.1,
+                "max": 6.1,
+                "feelsLike": 0.86
+            },
+            "wind": {
+                "speed": 5.8,
+                "deg": 241
+            },
+            "sky": {
+                "description": "light rain",
+                "clouds": 100
+            },
+            "dateISO": "2021-02-04 15:00:00"
+        },
+        {
+            "temp": {
+                "value": 4.05,
+                "min": 4.05,
+                "max": 4.05,
+                "feelsLike": -1.06
+            },
+            "wind": {
+                "speed": 5.04,
+                "deg": 274
+            },
+            "sky": {
+                "description": "overcast clouds",
+                "clouds": 98
+            },
+            "dateISO": "2021-02-04 18:00:00"
+        },
+        {
+            "temp": {
+                "value": 2.67,
+                "min": 2.67,
+                "max": 2.67,
+                "feelsLike": -2.94
+            },
+            "wind": {
+                "speed": 5.4,
+                "deg": 261
+            },
+            "sky": {
+                "description": "scattered clouds",
+                "clouds": 44
+            },
+            "dateISO": "2021-02-04 21:00:00"
+        }
+    ],
+    "2021-02-05": [
+        {
+            "temp": {
+                "value": 3.49,
+                "min": 3.49,
+                "max": 3.49,
+                "feelsLike": -2.41
+            },
+            "wind": {
+                "speed": 5.97,
+                "deg": 275
+            },
+            "sky": {
+                "description": "broken clouds",
+                "clouds": 72
+            },
+            "dateISO": "2021-02-05 00:00:00"
+        },
+        {
+            "temp": {
+                "value": 2.93,
+                "min": 2.93,
+                "max": 2.93,
+                "feelsLike": -2.86
+            },
+            "wind": {
+                "speed": 5.89,
+                "deg": 289
+            },
+            "sky": {
+                "description": "light rain",
+                "clouds": 99
+            },
+            "dateISO": "2021-02-05 03:00:00"
+        },
+        {
+            "temp": {
+                "value": -1.38,
+                "min": -1.38,
+                "max": -1.38,
+                "feelsLike": -8.77
+            },
+            "wind": {
+                "speed": 7.26,
+                "deg": 327
+            },
+            "sky": {
+                "description": "light snow",
+                "clouds": 99
+            },
+            "dateISO": "2021-02-05 06:00:00"
+        },
+        {
+            "temp": {
+                "value": -1.78,
+                "min": -1.78,
+                "max": -1.78,
+                "feelsLike": -9.0
+            },
+            "wind": {
+                "speed": 6.9,
+                "deg": 330
+            },
+            "sky": {
+                "description": "overcast clouds",
+                "clouds": 100
+            },
+            "dateISO": "2021-02-05 09:00:00"
+        },
+        {
+            "temp": {
+                "value": -0.91,
+                "min": -0.91,
+                "max": -0.91,
+                "feelsLike": -8.05
+            },
+            "wind": {
+                "speed": 6.77,
+                "deg": 330
+            },
+            "sky": {
+                "description": "broken clouds",
+                "clouds": 79
+            },
+            "dateISO": "2021-02-05 12:00:00"
+        },
+        {
+            "temp": {
+                "value": -2.62,
+                "min": -2.62,
+                "max": -2.62,
+                "feelsLike": -8.88
+            },
+            "wind": {
+                "speed": 5.27,
+                "deg": 326
+            },
+            "sky": {
+                "description": "clear sky",
+                "clouds": 0
+            },
+            "dateISO": "2021-02-05 15:00:00"
+        },
+        {
+            "temp": {
+                "value": -3.66,
+                "min": -3.66,
+                "max": -3.66,
+                "feelsLike": -9.34
+            },
+            "wind": {
+                "speed": 4.33,
+                "deg": 327
+            },
+            "sky": {
+                "description": "clear sky",
+                "clouds": 0
+            },
+            "dateISO": "2021-02-05 18:00:00"
+        },
+        {
+            "temp": {
+                "value": -3.91,
+                "min": -3.91,
+                "max": -3.91,
+                "feelsLike": -9.51
+            },
+            "wind": {
+                "speed": 4.18,
+                "deg": 308
+            },
+            "sky": {
+                "description": "clear sky",
+                "clouds": 0
+            },
+            "dateISO": "2021-02-05 21:00:00"
+        }
+    ],
+    "2021-02-06": [
+        {
+            "temp": {
+                "value": -3.92,
+                "min": -3.92,
+                "max": -3.92,
+                "feelsLike": -9.51
+            },
+            "wind": {
+                "speed": 4.15,
+                "deg": 308
+            },
+            "sky": {
+                "description": "clear sky",
+                "clouds": 1
+            },
+            "dateISO": "2021-02-06 00:00:00"
+        },
+        {
+            "temp": {
+                "value": -4.17,
+                "min": -4.17,
+                "max": -4.17,
+                "feelsLike": -9.58
+            },
+            "wind": {
+                "speed": 3.9,
+                "deg": 307
+            },
+            "sky": {
+                "description": "few clouds",
+                "clouds": 23
+            },
+            "dateISO": "2021-02-06 03:00:00"
+        },
+        {
+            "temp": {
+                "value": -5.15,
+                "min": -5.15,
+                "max": -5.15,
+                "feelsLike": -10.85
+            },
+            "wind": {
+                "speed": 4.15,
+                "deg": 324
+            },
+            "sky": {
+                "description": "scattered clouds",
+                "clouds": 39
+            },
+            "dateISO": "2021-02-06 06:00:00"
+        }
+    ]
+}

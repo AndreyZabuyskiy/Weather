@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Weather.Domain.Models;
 
 namespace Weather.Domain.UseCases
 {
-    interface IGetForecast
+    public interface IGetForecast
     {
-        void GetForecast(string city);
+        Task<Forecast> GetForecast(string city);
     }
 }

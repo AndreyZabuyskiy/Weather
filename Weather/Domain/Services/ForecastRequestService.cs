@@ -32,6 +32,7 @@ namespace Weather.Domain.Services
         public async Task<dynamic> RequestForecast(string city)
         {
             using HttpClient client = new HttpClient();
+
             string url = CreateApiUrl(city, "forecast");
             string response = await client.GetStringAsync(url);
             dynamic data = JsonConvert.DeserializeObject(response);
