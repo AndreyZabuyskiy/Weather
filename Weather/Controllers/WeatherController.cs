@@ -8,12 +8,12 @@ namespace Weather.Controllers
     public class WeatherController : Controller
     {
         private readonly IGetCurrentWeather _currentWeatherService;
-        private readonly IGetForecast _getForecast;
+        private readonly IGetForecast _forecastService;
 
-        public WeatherController([FromServices]IGetCurrentWeather currentWeatherService, [FromServices]IGetForecast getForecast)
+        public WeatherController([FromServices]IGetCurrentWeather currentWeatherService, [FromServices]IGetForecast forecastService)
         {
             _currentWeatherService = currentWeatherService;
-            _getForecast = getForecast;
+            _forecastService = forecastService;
         }
 
         public async Task<JsonResult> GetCurrentWeather(string city)
@@ -25,7 +25,7 @@ namespace Weather.Controllers
 
         public async Task<JsonResult> GetForecast(string city)
         {
-            Forecast data = await _getForecast.GetForecast(city);
+            Forecast data = await _forecastService.GetForecast(city);
 
             return Json(data.ForecastData);
         }

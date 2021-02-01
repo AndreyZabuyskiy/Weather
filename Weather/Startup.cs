@@ -30,9 +30,9 @@ namespace Weather
 
             IApiConfigPort apiConfig = new ApiConfigService(apiUrl, apiKey);
             IRequestCurrentWeather requestCurrentWeatherService = new ForecastRequestService(apiConfig);
-            IRequestForecast requestForecast = new ForecastRequestService(apiConfig);
-            IGetCurrentWeather getCurrentWeatherService = new ForecastService(requestCurrentWeatherService, requestForecast);
-            IGetForecast getForecast = new ForecastService(requestCurrentWeatherService, requestForecast);
+            IRequestForecast requestForecastService = new ForecastRequestService(apiConfig);
+            IGetCurrentWeather getCurrentWeatherService = new ForecastService(requestCurrentWeatherService, requestForecastService);
+            IGetForecast getForecast = new ForecastService(requestCurrentWeatherService, requestForecastService);
 
             services.AddSingleton<IGetCurrentWeather>(provider => getCurrentWeatherService);
             services.AddSingleton<IGetForecast>(provider => getForecast);
