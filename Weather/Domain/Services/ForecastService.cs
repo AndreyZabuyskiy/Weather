@@ -21,7 +21,7 @@ namespace Weather.Domain.Services
         public async Task<WeatherData> GetCurrentWeather(string city)
         {
             dynamic data = await _currentWeatherRequestService.RequestCurrentWeather(city);
-            WeatherData weather = WeatherData.GetWeatherData(data, true);
+            WeatherData weather = MapForecastItemToWeatherData(data, true);
             return weather;
         }
 
@@ -35,7 +35,7 @@ namespace Weather.Domain.Services
                 string tmp_dt = item.dt_txt;
                 var words = tmp_dt.Split(' ');
 
-                WeatherData weather = WeatherData.GetWeatherData(item, false);
+                WeatherData weather = MapForecastItemToWeatherData(item, false);
 
                 if (!forecast.ForecastData.ContainsKey(words[0]))
                 {
@@ -46,6 +46,38 @@ namespace Weather.Domain.Services
             }
 
             return forecast;
+        }
+
+        private WeatherData MapForecastItemToWeatherData(dynamic data, bool useCurrentDate)
+        {
+            string date;
+
+            if (useCurrentDate)
+            {
+                date = DateTime.Now.ToString("o");
+            }
+            else
+            {
+                date = data.dt_txt;
+            }
+
+            double tempValue = data.main.temp;
+            double min = data.main.temp_min;
+            double max = data.main.temp_max;
+            double feelsLike = data.main.feels_like;
+
+            double windSpeed = data.wind.speed;
+            int windDeg = data.wind.deg;
+
+            string skyDescription = data.weather[0].description;
+            int clouds = data.clouds.all;
+
+            Temperature temp = new Temperature(tempValue, min, max, feelsLike);
+            Wind wind = new Wind(windSpeed, windDeg);
+            Sky sky = new Sky(skyDescription, clouds);
+            WeatherData weather = new WeatherData(temp, wind, sky, date);
+
+            return weather;
         }
     }
 }

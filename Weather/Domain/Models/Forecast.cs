@@ -8,7 +8,6 @@ namespace Weather.Domain.Models
     public class Forecast
     {
         public Dictionary<string, List<WeatherData>> ForecastData { get; set; }
-        public string Dates { get; set; }
 
         public Forecast()
         {
