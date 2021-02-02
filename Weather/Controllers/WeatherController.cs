@@ -10,7 +10,8 @@ namespace Weather.Controllers
         private readonly IGetCurrentWeather _currentWeatherService;
         private readonly IGetForecast _forecastService;
 
-        public WeatherController([FromServices]IGetCurrentWeather currentWeatherService, [FromServices]IGetForecast forecastService)
+        public WeatherController([FromServices]IGetCurrentWeather currentWeatherService, 
+            [FromServices]IGetForecast forecastService)
         {
             _currentWeatherService = currentWeatherService;
             _forecastService = forecastService;

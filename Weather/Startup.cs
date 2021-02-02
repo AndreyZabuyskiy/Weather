@@ -36,6 +36,8 @@ namespace Weather
 
             services.AddSingleton<IGetCurrentWeather>(provider => getCurrentWeatherService);
             services.AddSingleton<IGetForecast>(provider => getForecast);
+
+            services.AddSwaggerGen();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -53,6 +55,17 @@ namespace Weather
             }
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+
+            app.UseSwagger(c =>
+            {
+                c.SerializeAsV2 = true;
+            });
+
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+                c.RoutePrefix = string.Empty;
+            });
 
             app.UseRouting();
 
