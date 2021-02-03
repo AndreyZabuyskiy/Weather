@@ -1,10 +1,18 @@
-﻿using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using Weather.Domain.Models;
 using Weather.Domain.UseCases;
 
 namespace Weather.Controllers
 {
+    /// <summary>
+    /// Weather Controller managing weather
+    /// </summary>
+    //[ApiController]
+    //[Route("controller")]
     public class WeatherController : Controller
     {
         private readonly IGetCurrentWeather _currentWeatherService;
@@ -17,18 +25,42 @@ namespace Weather.Controllers
             _forecastService = forecastService;
         }
 
-        public async Task<JsonResult> GetCurrentWeather(string city)
+        [HttpGet]
+        public async Task<IActionResult> GetCurrentWeather([Required] string city)
         {
-            WeatherData data = await _currentWeatherService.GetCurrentWeather(city);
+            try
+            {
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest(new { message = "City is not provided" });
+                }
 
-            return Json(data);
+                WeatherData data = await _currentWeatherService.GetCurrentWeather(city);
+                return Json(data);
+            }
+            catch
+            {
+                return BadRequest(new { message = "Bad Request" });
+            }
         }
 
-        public async Task<JsonResult> GetForecast(string city)
+        [HttpGet]
+        public async Task<IActionResult> GetForecast([Required] string city)
         {
-            Forecast data = await _forecastService.GetForecast(city);
+            try
+            {
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest(new { message = "City is not provided" });
+                }
 
-            return Json(data.ForecastData);
+                Forecast data = await _forecastService.GetForecast(city);
+                return Json(data.ForecastData);
+            }
+            catch
+            {
+                return BadRequest(new { message = "Bad Request" });
+            }
         }
     }
 }

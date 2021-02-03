@@ -32,6 +32,7 @@ D:\Программирование\Приложения\Cleveroad test task\Wea
 D:\Программирование\Приложения\Cleveroad test task\Weather\Weather\bin\Debug\netcoreapp3.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\Программирование\Приложения\Cleveroad test task\Weather\Weather\bin\Debug\netcoreapp3.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\Программирование\Приложения\Cleveroad test task\Weather\Weather\bin\Debug\netcoreapp3.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Программирование\Приложения\Cleveroad test task\Weather\Weather\bin\Debug\netcoreapp3.0\Swashbuckle.AspNetCore.Annotations.dll
 D:\Программирование\Приложения\Cleveroad test task\Weather\Weather\obj\Debug\netcoreapp3.0\Weather.csproj.CoreCompileInputs.cache
 D:\Программирование\Приложения\Cleveroad test task\Weather\Weather\obj\Debug\netcoreapp3.0\Weather.MvcApplicationPartsAssemblyInfo.cs
 D:\Программирование\Приложения\Cleveroad test task\Weather\Weather\obj\Debug\netcoreapp3.0\Weather.MvcApplicationPartsAssemblyInfo.cache

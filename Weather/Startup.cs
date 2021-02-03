@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.OpenApi.Models;
+using System;
 using Weather.Domain.Ports;
 using Weather.Domain.Services;
 using Weather.Domain.UseCases;
@@ -37,7 +39,16 @@ namespace Weather
             services.AddSingleton<IGetCurrentWeather>(provider => getCurrentWeatherService);
             services.AddSingleton<IGetForecast>(provider => getForecast);
 
-            services.AddSwaggerGen();
+            services.AddSwaggerGen(options => 
+            {
+                options.SwaggerDoc("v1",
+                    new OpenApiInfo
+                    {
+                        Title = "Weather API",
+                        Description = "API for showing Weather",
+                        Version = "v1"
+                    });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -56,10 +67,12 @@ namespace Weather
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
-            app.UseSwagger(c =>
+            /*app.UseSwagger(c =>
             {
                 c.SerializeAsV2 = true;
-            });
+            });*/
+
+            app.UseSwagger();
 
             app.UseSwaggerUI(c =>
             {
