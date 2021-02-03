@@ -11,8 +11,6 @@ namespace Weather.Controllers
     /// <summary>
     /// Weather Controller managing weather
     /// </summary>
-    //[ApiController]
-    //[Route("controller")]
     public class WeatherController : Controller
     {
         private readonly IGetCurrentWeather _currentWeatherService;
@@ -25,6 +23,11 @@ namespace Weather.Controllers
             _forecastService = forecastService;
         }
 
+        /// <summary>
+        /// This method returns the current weather for the specified city
+        /// </summary>
+        /// <param name="city"></param>
+        /// <returns>Json object of current weather</returns>
         [HttpGet]
         public async Task<IActionResult> GetCurrentWeather([Required] string city)
         {
@@ -44,6 +47,11 @@ namespace Weather.Controllers
             }
         }
 
+        /// <summary>
+        /// This method returns the weather forecast for the specified city
+        /// </summary>
+        /// <param name="city"></param>
+        /// <returns>An array of json objects weather forecasts</returns>
         [HttpGet]
         public async Task<IActionResult> GetForecast([Required] string city)
         {

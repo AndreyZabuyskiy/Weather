@@ -67,12 +67,12 @@ namespace Weather
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
-            /*app.UseSwagger(c =>
+            app.UseSwagger(c =>
             {
                 c.SerializeAsV2 = true;
-            });*/
+            });
 
-            app.UseSwagger();
+            //app.UseSwagger();
 
             app.UseSwaggerUI(c =>
             {
